@@ -12,8 +12,8 @@ p{
 	margin:0;
 }
 .accordion, .accordion * {
-	-webkit-box-sizing:border-box; 
-	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 }
 
@@ -47,7 +47,7 @@ p{
 border-bottom: none;
 }
 .accordion-section-content.open{
-    border-top: 1px solid #cacaca;	
+    border-top: 1px solid #cacaca;
 }
 .accordion-section-content {
     padding: 15px 15px;
@@ -87,7 +87,7 @@ a.accordion-section-title span {
 }
 .accordion-section ul li a{
     color: #464646;
-	text-decoration:none;	
+	text-decoration:none;
 }
 .accordion-section ul li span {
     margin-right: 14px;
@@ -166,7 +166,7 @@ p.abt-para {
     -o-background-size: cover;
     -ms-background-size: cover;
     -moz-background-size: cover;
-	min-height:610px;	
+	min-height:610px;
 }
 .abt-gd-left {
     padding-top: 200px;
@@ -266,7 +266,7 @@ body a {
     margin-bottom: 12px;
 }
 .more-right2 h4 ,.more-right2 p{
-text-align:right;	
+text-align:right;
 }
 .more-right {
     border-left: 3px solid #C7C7C7;
@@ -685,7 +685,7 @@ ul.address-text b {
 /*-- //banner --*/
 /*-- about --*/
 .about,.experience,.projects,.contact{
-	padding:100px 0px;
+	padding:0px 0px ;
 }
 h4.title-w3ls {
     color: #000;
@@ -1102,7 +1102,7 @@ left: 0%;
 .lightbox-target:target a.lightbox-close {
 top: 0px;
 }
-a.lightbox img:hover { 
+a.lightbox img:hover {
  background:#21A957;
 }
 /*--//projects--*/
@@ -1182,15 +1182,15 @@ a.lightbox img:hover {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: rgba(255, 255, 255, 0.65); 
+   color: rgba(255, 255, 255, 0.65);
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: rgba(255, 255, 255, 0.65);  
+   color: rgba(255, 255, 255, 0.65);
 }
 
-:-ms-input-placeholder {  
-   color: rgba(255, 255, 255, 0.65);  
+:-ms-input-placeholder {
+   color: rgba(255, 255, 255, 0.65);
 }
 /*--//placeholder-color--*/
 
@@ -1229,7 +1229,7 @@ a.lightbox img:hover {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1250,7 +1250,7 @@ a.lightbox img:hover {
 /*-- //to-top --*/
 /*--responsive--*/
 @media(max-width:1680px){
-	
+
 }
 @media(max-width:1440px){
 	.header {
@@ -1302,7 +1302,7 @@ a.lightbox img:hover {
 		letter-spacing: 3px;
 	}
 	.about, .experience, .projects, .contact {
-		padding: 80px 0px;
+		padding: 80px 0px !important;
 	}
 	h4.title-w3ls {
 		font-size: 26px;
@@ -1552,7 +1552,7 @@ a.lightbox img:hover {
 		height: 490px;
 	}
 	.about, .experience, .projects, .contact {
-		padding: 70px 0px;
+		padding: 0px 0px ;
 	}
 }
 @media(max-width:991px){
@@ -1675,7 +1675,7 @@ a.lightbox img:hover {
 	.contact-agileits-w3layouts p {
 		font-size: 13.5px;
 	}
-	
+
 }
 @media(max-width:800px){
 	h4.title-w3ls {
@@ -2375,7 +2375,7 @@ a.lightbox img:hover {
 	}
 	.employ-right p ,.employ-left2 p,p.abt-para,.pro-text p,ul.list-left li,.header-right ul li{
 		font-size: 13px;
-	}	
+	}
 	.abt-gd-left h4 {
 		font-size: 19px;
 	}
@@ -2397,4 +2397,7 @@ a.lightbox img:hover {
 	.contact-form input#uploadFile {
 		width: 67%;
 	}
+  .bottom_padding{
+    padding: 0px !important;
+  }
 }
