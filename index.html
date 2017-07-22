@@ -83,8 +83,15 @@
 			<!-- start-smooth-scrolling -->
 			</head>
 
-			<body>
+	<body style="background-color:grey" onload="myFunction()">
+		<div style="margin-top:270px;"id="myloader" class="sk-folding-cube"> <!--//preload animation div hai ye.change this before 13 august.-->
+		<div class="sk-cube1 sk-cube"></div>
+		<div class="sk-cube2 sk-cube"></div>
+		<div class="sk-cube4 sk-cube"></div>
+		<div class="sk-cube3 sk-cube"></div>
+		</div>
 			<!-- banner -->
+			<div id="home" style="display:none;"  class="w3-animate-bottom">
 				<div class="banner-figures">
 					<div class="banner">
 						<div class="container banner-drop">
@@ -292,7 +299,7 @@
 					<div class="clearfix"></div>
 				</div>
 				<div class="clearfix"></div>
-			</div>
+			
 
 			<!--/skills-->
 
@@ -589,6 +596,18 @@
 				</div>
 			<!-- //footer -->
 			<script src="js/bars.js"></script>
+		</div>
+			<script> // this function controls preload screen
+			var myVar;
+			function myFunction() {
+		    myVar = setTimeout(showPage, 6000);
+			}
+			function showPage() {
+		  document.getElementById("myloader").style.display = "none";
+		  document.getElementById("home").style.display = "block";
+			document.body.style.backgroundColor="white";
+			}
+		 </script>
 
 			<!-- here stars scrolling icon -->
 			<script type="text/javascript">
@@ -609,5 +628,6 @@
 			<!-- //here ends scrolling icon -->
 			<!-- <script data-cfasync="false" type="text/javascript"
 		   src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
+
 			</body>
 			</html>
